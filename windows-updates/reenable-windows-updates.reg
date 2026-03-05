@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; RE-ENABLE Windows 11 Automatic Updates
+; Removes the policy keys set by disable-windows-updates.reg
+; Created by: Kerim Backwards | github.com/Isolator79/kerim-backwards-resources
+; VIDEO: Top 5 Ways to Disable Windows 11 Updates
+; ============================================================
+; HOW TO USE:
+; 1. Double-click this file
+; 2. Click Yes on the UAC prompt
+; 3. Click Yes on the Registry prompt
+; 4. Restart your PC
+; ============================================================
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
