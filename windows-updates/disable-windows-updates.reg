@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; Disable Windows 11 Automatic Updates
+; Method: Registry Policy (works on ALL editions incl. Home)
+; Created by: Kerim Backwards | github.com/Isolator79/kerim-backwards-resources
+; VIDEO: Top 5 Ways to Disable Windows 11 Updates
+; ============================================================
+; HOW TO USE:
+; 1. Double-click this file
+; 2. Click Yes on the UAC prompt
+; 3. Click Yes on the Registry prompt
+; 4. Restart your PC
+; ============================================================
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=dword:00000001
+"AUOptions"=dword:00000002
